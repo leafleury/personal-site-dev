@@ -1,2 +1,3 @@
-# personal-site-dev
-Developpement side of the gihub personnal website.
+# leafleury.github.io
+
+Personal Blog.
