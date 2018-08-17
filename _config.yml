@@ -6,6 +6,7 @@ language: 'en-uk'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: '/'
+# url: '//leafleury.github.io'
 
 # Website info
 title: Léa's Travel Blog
@@ -33,9 +34,10 @@ disqus_shortname:  # replace with your disqus username
 google_analytics:  # replace with your GA tracking identifier
 
 # Permalinks
-permalink: /:title
+# permalink: /:title
 # permalink: /author/:author
 # permalink: /tag/:tag
+permalink: /:title 
 
 # Authors' info in `_data/authors.yml`
 # Tags' info in `_data/tags_info.yml`
@@ -73,6 +75,14 @@ relative_source: /
 destination: ../leafleury.github.io
 production_url:  https://leafleury.github.io/
 source_url:  https://github.com/leafleury/personal-site-dev/
+
+# Gallery settings.
+defaults:
+  -
+    scope:
+      path: "galleries"
+    values:
+      permalink: /:path/:basename:output_ext
 
 exclude: # - assets/css
   - node_modules
