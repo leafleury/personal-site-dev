@@ -5,7 +5,7 @@ paginate: 100 # it will paginate after this number
 language: 'en-uk'
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: '/'
 
 # Website info
 title: Léa's Travel Blog
@@ -14,8 +14,8 @@ cover: assets/images/london-main.jpg
 # logo: assets/images/blog-icon.png
 # logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url: https://jekyller.github.io/jasper2/
-source_url: https://github.com/jekyller/jasper2/
+production_url: https://leafleury.github.io/
+source_url: https://github.com/leafleury/personal-site-dev/
 
 # Social info
 navigation: True # show the navbar links
@@ -67,15 +67,14 @@ feed:
 safe: False
 lsi: False
 username: firgaty
-repo: jasper2
+repo: personal-site-dev
 branch: master
-relative_source: ../jasper2/
+relative_source: /
 destination: ../leafleury.github.io
-production_url:  https://jekyller.github.io/jasper2/
-source_url:  https://github.com/jekyller/jasper2/
+production_url:  https://leafleury.github.io/
+source_url:  https://github.com/leafleury/personal-site-dev/
 
-exclude:
-  - assets/css
+exclude: # - assets/css
   - node_modules
   - vendor
   - .travis.yml
