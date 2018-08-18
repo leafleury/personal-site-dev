@@ -1,0 +1,15 @@
+.post-image-div {
+    font: inherit;
+    align-items: center;
+    text-align: center;
+}
+
+.post-image-div > p {
+    font: inherit;
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: 200;
+    font-style: italic;
+    color: grey;
+    margin-top: -2em
+}
