@@ -11,7 +11,7 @@ ghost:
 lea:
   username: lea
   name: Léa Fleury
-  location: Paris, France
+  location: "Paris, France"
   url_full: http://leafleury.github.io/
   url: leafleury.github.io
   bio: I tutor french classes in London.
